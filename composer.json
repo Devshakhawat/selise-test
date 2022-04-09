@@ -1,0 +1,13 @@
+{
+    "name": "selise/exam",
+    "description": "this is test plugin",
+    "type": "wordpress-plugin",
+    "license": "gplv2 or later",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Selise\\": "includes/"
+        }
+    }
+}
